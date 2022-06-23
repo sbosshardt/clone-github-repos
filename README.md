@@ -3,6 +3,10 @@
 ## Description
 A simple utility that makes it easy to locally clone all of a Github user's repositories.
 
+### System requirements
+- Git
+- Python 3
+
 ## Usage instructions
 ```
 usage: clone-github-repos.py [-h] [-t] [-n] [-s] [-j [FILE [FILE ...]]] username
@@ -22,3 +26,7 @@ optional arguments:
   -j [FILE [FILE ...]], --json-files [FILE [FILE ...]]
                         Use one or more local json files instead of making API requests.
 ```
+
+## Caveats
+- This was put together quickly and has not been well-tested.
+- This may not run correctly (or at all) on Windows.
